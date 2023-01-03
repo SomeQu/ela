@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+max-width: 1440px;
+}
+.container{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 120px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 9px auto;
+    border-bottom: 1px solid #868686;
+}
+.navbar{
+    display: flex;
+}
+.navbar-list{
+    display: flex;
+    justify-content: space-between;
+    width: 720px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+}
+.logo-img{
+    margin-left: 30px;
+}
+.navbar-list__item{
+    list-style-type: none;
+    color: #2B2B2B;
+}
+.btn-login{
+    border: none;
+    padding: 0;
+    background: none;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 160px;
+}
+.hero{
+    display: flex;
+   margin-right: 100px;
+    margin-top: 50px;
+}
+.hero-txt{
+text-align: left;
+margin-right: 80px;
+}
+.hero-txt_main{
+    font-size: 45px;
+    font-weight: 300;
+    line-height: 50px;
+    padding-left: 140px;
+}
+.btn-hero{
+    margin-left: 240px;
+    margin-top: 60px;
+    border: 0.5px solid black;
+    padding: 15px;
+    background: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+.second-hero{
+    display: flex;
+    margin-top: 180px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.mission-txt{
+    text-align: center;
+}
+.mission-txt_main{
+    font-size: 40px;
+    font-weight: 400;
+}
+.mission-txt_primary{
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 67px;
+}
+.mission-txt_secondary{
+    margin-top: 208px;
+}
+.naryn{
+    margin-top: 180px;
+}
+.naryn-txt{
+   position: absolute;
+   top: 1660px ;
+   left: 651px;
+    font-size: 40px;
+    font-weight: 300;
+}
+.date{
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 57px;
+    padding-right: 56px;
+    font-size: 22px;
+}
+.book{
+    text-align: center;
+
+    padding-bottom: 28px;
+    font-size: 22px;
+}
+.naryn-container{
+    position: absolute;
+    background-color: #FFFFFF80;
+    backdrop-filter: blur(3px);
+    top: 2200px;
+    left:545px;
+    width: 350px;
+    height: 150px;
+}
